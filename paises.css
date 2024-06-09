@@ -1,0 +1,18 @@
+body{
+    background-color: skyblue;
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+    border: 4px dashed rgb(54, 54, 255);
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+svg{
+    height: 100vh;
+    width: 100%;
+}
