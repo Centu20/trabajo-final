@@ -18,10 +18,30 @@ svg{
 }
 
 
+path{
+    fill: white;
+    stroke: black;
+    stroke-width: 0.2;
+}
+
+
 path:hover{
     fill: darkcyan;
     stroke: darkorange;
-    stroke-width: 0.5;
+    stroke-width: 1.4;
 }
 
+
+.arriba:hover{
+    animation: subida 2s;
+}
+
+
+@keyframes subida {
+    50%{
+        transform: scale(1,5);
+
+        transform: translate(50px,-10px);
+    }
+}
 
