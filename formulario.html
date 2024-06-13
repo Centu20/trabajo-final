@@ -7,85 +7,92 @@
     <link rel="stylesheet" href="cuerpo.css">
 </head>
 <body>
-    <h1 id="titulo"><mark>Formulario</mark></h1>
+    <h1>COMERCIO EXTERIOR</h1>
+    
     <p>¿Si les les llamo la atencion las caracteristicas de la empresa, estan en busqueda de empleo y quieren trabajar aqui?</p>
+
     <p>En este formulario podran inscribirse a COMERCIO EXTERIOR donde mandaran sus CVs y datos personales.</p>
 
+ <div class="cuerpo">
+        <h1 id="titulo"><mark>FORMULARIO</mark></h1>
+        <form id="formulario-de-empleo" action="./recibido.html" target="_blank">
 
-    <form action="">
-        <div>
-            <h1>COMERCIO EXTERIOR</h1>
-        </div>
+            <div id="busqueda-de-empleo">
+                    <p>Para incribirse a la empresa, deben llenar y responder las casillas del formulario con los datos que les piden</p>
 
-        <div>
-            <p>Para incribirse a la empresa, deben llenar y responder las casillas del formulario con los datos que les piden</p>
+                    <p>El simbolo de * significa que es obligatorio</p>
+          
+                <div class="informacion" id="info-nombres">
+                    <label for="nombre"><u>Nombre y apellido</u>*</label>
+                    <input type="text" name="listado-de-nombres" id="primero" required>
+                </div>
 
-            <p>El simbolo de * significa que es obligatorio</p>
-        </div>
+                <div class="informacion" id="info-telefono">
+                    <label for="telefono"><u>numero de telefono</u>*</label>
+                    <input type="text" name="listado-de-telefonos" id="segundo" required>
+                </div>
 
-        <div>
-            <label for="nombre y apellido">Nombre Completo*</label>
-            <input type="text" name="listado-de-nombres" id="primero" required>
-        </div>
+                <div class="informacion" id="info-gmails">
+                  <label for="gmail"><u>Correo Electronico</u>*</label>
+                  <input type="text" name="listado-de-gmails" id="tercero" required>
+                </div>
 
-        <div>
-            <label for="gmail">Correo Electronico*</label>
-            <input type="text" name="listado-de-gmails" id="segundo" required>
-        </div>
+                <div class="informacion" id="info-documento">
+                    <label for="documento"><u>DNI</u>*</label>
+                    <input type="text" name="listado-de-documentos" id="cuarto" required>
+                </div>
 
-        <div>
-            <label for="documento">DNI*</label>
-            <input type="text" name="listado-de-documentos" id="tercero" required>
-        </div>
+                <div class="pregunta" id="info-pregunta-1">
+                    <label for="pregunta-1">¿<u>Porque quieres trabajar en esta empresa</u>?*</label>
+                    <textarea name="listado-de-preguntas-1" id="quinto" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-1">¿Porque quieres trabajar en esta empresa?*</label>
-            <textarea name="listado-de-preguntas-1" id="cuarto" rows="5" cols="25"></textarea>
-        </div>
+                <div class="pregunta" id="info-pregunta-2">
+                    <label for="pregunta-2">¿<u>Que es lo que te llamo mas la atencion</u>?*</label>
+                    <textarea name="listado-de-preguntas-2" id="sexto" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-2">¿Que es lo que te llamo mas la atencion?*</label>
-            <textarea name="listado-de-preguntas-2" id="quinto" rows="5" cols="25"></textarea>
-        </div>
+                <div class="pregunta" id="info-pregunta-3">
+                    <label for="pregunta-3">¿<u>Cuales son tus objetivos laborales</u>?</label>
+                    <textarea name="listado-de-preguntas-3" id="septimo" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-3">¿Cuales son tus objetivos laborales?</label>
-            <textarea name="listado-de-preguntas-3" id="septimo" rows="5" cols="25"></textarea>
-            
-        </div>
+                <div class="pregunta" id="info-pregunta-4">
+                    <label for="pregunta-4">¿Cual es tu nivel educativo</u>?*</label>
+                    <textarea name="listado-de-preguntas-4" id="octavo" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-4">¿Cual es tu nivel educativo?*</label>
-            <textarea name="listado-de-preguntas-4" id="octavo" rows="5" cols="25"></textarea>
-        </div>
+                <div class="pregunta" id="info-pregunta-5">
+                    <label for="pregunta-5">¿<u>Tenes conocimientos previos?*</label>
+                    <textarea name="listado-de-preguntas-5" id="noveno" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-5">¿Tenes conocimientos previos?*</label>
-            <textarea name="listado-de-preguntas-5" id="noveno" rows="5" cols="25"></textarea>
-        </div>
+                <div class="pregunta" id="info-pregunta-6">
+                    <label for="pregunta-6">¿<u>Estas coonforme con el horario y el salario que ofrece la empresa?</u>*</label>
+                    <textarea name="listado-de-preguntas-6" id="decimo" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-6">¿Estas coonforme con el horario y el salario que ofrece la empresa?*</label>
-            <textarea name="listado-de-preguntas-6" id="decimo" rows="5" cols="25"></textarea>
-        </div>
+                <div class="pregunta" id="info-pregunta-7">
+                    <label for="pregunta-7">¿<u>Prefieres tener una entrevisa virtual o presencial</u>?*</label>
+                    <textarea name="listado-de-preguntas-7" id="onceavo" rows="5" cols="25"></textarea>
+                </div>
 
-        <div>
-            <label for="pregunta-7">¿Prefieres tener una entrevisa virtual o presencial?*</label>
-            <textarea name="listado-de-preguntas-7" id="onceavo" rows="5" cols="25"></textarea>
-        </div>
+                <div class="informacion" id="info-cv">
+                    <label for="curriculum"><u>CV</u>*</label>
+                    <input:cv>descargar el CV</input:cv>
+                </div>
 
-        <div>
-            <label for="curriculum">CV*</label>
-            <input:cv>descargar el CV</input:cv>
-        </div>
+                <div class="informacion" id="info-video">
+                    <label for="Video"><u>Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresay cuales son sus objetivos</u></label>
+                    <input type="url" name="" id="">
+                </div>
 
-        <div>
-            <label for="Video">Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresay cuales son sus objetivos</label>
-            <input type="url" name="" id="">
-        </div>
+                <input onclick="informe()" id="envio" type="submit" value="Enviar">
+            </div>
 
+        </form>
+   </div>
 
-
-    </form>
+    <script src="script.js"></script>
 </body>
 </html>

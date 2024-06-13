@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(44, 137, 173);
+}
+
+
+h4{
+    background-color: skyblue;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid fuchsia;
+    width: 15%;
+}
+
+
+.postulantes{
+    background-color: darkorange;
+    border: 5px double powderblue;
+    width: 25%;
+    margin-bottom: 10px;
+}

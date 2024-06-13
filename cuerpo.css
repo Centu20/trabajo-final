@@ -1,10 +1,110 @@
 body{
     background-color: rgb(253, 168, 88);
+    display: grid;
+    justify-content: center;
+}
+
+
+#cuerpo{
+    position: relative;
+    height: 100vh;
+}
+
+
+#titulo{
+    background-color: darkorange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkorchid;
+    font-size: 40px;
+    border-width: 2px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: orange;
+    border: 2px solid blue;
+    background-color: skyblue;
+    border-width: 2px;
+}
+
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
 
 
-h1, p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+#busqueda-de-empleo{
+    display: grid;
 }
+
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-style: oblique;
+}
+
+
+.informacion{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.pregunta{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#pregunta-1-7{
+    min-width: 150px;
+    max-width: 200px;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+
+#video{
+    min-width: 150px;
+    max-width: 200px;
+    min-height: 150px;
+    max-height: 200px; 
+}
+
+
+mark{
+    background-color: skyblue;
+    color: blue;
+}
+
+#formulario-de-empleo{
+    background-color: goldenrod;
+    text-align: center;
+    border: 15px double rgb(116, 116, 255);
+    display: grid;
+    justify-items: center;
+    width: 30%;
+    height: 95%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+input, textarea{
+    margin-bottom: 10px;
+}
+
+
+#envio{
+    margin-top: 15px;
+    font-size: large;
+}
+
