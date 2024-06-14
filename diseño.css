@@ -1,6 +1,6 @@
 body{
     background-color: rgb(42, 143, 184);
-    color: rgb(68, 209, 252);
+    color: skyblue;
     display: grid;
     margin: 0;
 }
@@ -30,6 +30,12 @@ header>h1{
 
 tr th{
     border-color: bisque;
+    color: skyblue;
+}
+
+
+tr{
+    color: black;
 }
 
 
@@ -98,4 +104,12 @@ footer>p{
 
 footer>ul{
     margin-right: 10px;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5%;
+    height: 2%;
+    width: 16%;
 }
