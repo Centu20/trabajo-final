@@ -15,6 +15,18 @@ body{
 }
 
 
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.logo img{
+    width: 200px;
+    height: auto;
+}
+
 h1{
     text-align: center;
     font-family: sans-serif;
@@ -124,15 +136,24 @@ p{
 
 
 #animacion-3{
-    animation: estilo 4s infinite;
+    animation: subida 4s;
 }
 
 
-@keyframes estilo{
-    5%{
-        background-color: skyblue;
-        color: orange;
-        border-color: orangered;
+@keyframes subida{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-40px);
+        opacity: 0;
     }
 }
 

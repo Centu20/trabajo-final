@@ -45,3 +45,16 @@ path:hover{
     }
 }
 
+
+.abajo:hover{
+    animation: bajada 2s;
+}
+
+
+@keyframes bajada {
+    50%{
+        transform: scale(1,5);
+
+        transform: translate(-50px,10px);
+    }
+}
