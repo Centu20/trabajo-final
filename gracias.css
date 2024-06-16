@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(44, 137, 173);
+    background-color: rgb(44, 137, 173);    
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,7 @@ h4{
     border: 10px solid fuchsia;
     font-size: 40px;
     margin-bottom: 15%;
-    height: 3%;
+    height: 95%;
     width: 33%;
     margin: 0 auto;
 }
@@ -39,4 +39,33 @@ h4{
     border: 5px double powderblue;
     width: 25%;
     margin-bottom: 10px;
+}
+
+
+#CARTA{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: repeat(2px, auto);
+    height: 900px;
+    max-width: 44%;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    background-color: beige;
+    border: 15px solid rgb(207, 201, 201);
+    margin: 0 auto;
+}
+
+
+#filas{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#principal{
+    display: grid;
+    justify-items: center;
+    width: 20%;
+    height: 20%;
 }
