@@ -42,6 +42,12 @@ header>h1{
 }
 
 
+#lider,path:hover{
+    fill: white;
+    stroke: darkcyan;
+    stroke-width: 1.2;
+}
+
 tr th{
     border-color: bisque;
     color: skyblue;
