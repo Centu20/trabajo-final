@@ -3,7 +3,16 @@ body{
 }
 
 
-h1{
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+
+
+header h1{
     text-align: center;
     color: blue;
     border: 4px dashed rgb(54, 54, 255);
@@ -13,7 +22,7 @@ h1{
 
 
 svg{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
