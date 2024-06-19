@@ -12,11 +12,17 @@
         <img src="tarjeta.jpg" alt="imagen">
     </div>
 
-    <h1>COMERCIO EXTERIOR</h1>
-    
-    <p>¿Si les les llamo la atencion las caracteristicas de la empresa, estan en busqueda de empleo y quieren trabajar aqui?</p>
+    <header>
+        <h1>COMERCIO EXTERIOR</h1>
+    </header>
 
-    <p>En este formulario podran inscribirse a COMERCIO EXTERIOR donde mandaran sus CVs y datos personales.</p>
+
+    <main>
+        <p>¿Si les les llamo la atencion las caracteristicas de la empresa, estan en busqueda de empleo y quieren trabajar aqui?</p>
+
+        <p>En este formulario podran inscribirse a COMERCIO EXTERIOR donde mandaran sus CVs y datos personales.</p>
+    </main>
+
 
  <div class="cuerpo">
         <h1 id="titulo"><mark>FORMULARIO</mark></h1>
@@ -84,12 +90,15 @@
 
                 <div class="informacion" id="info-cv">
                     <label for="curriculum"><u>CV</u>*</label>
-                    <input:cv>descargar el CV</input:cv>
+                    <input type="file" id="curriculum" name="curriculum" accept="image/png, image/jpeg"><u>descargar el CV</u></input>
                 </div>
 
                 <div class="informacion" id="info-video">
                     <label for="Video"><u>Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresay cuales son sus objetivos</u></label>
-                    <input type="url" name="" id="">
+                    <video src="presentacion" autoplay poster="video presentativo">presentacion</video>
+                    <code><u>presentacion</u></code>
+                    <input type="file" id="video" accept="video/*"></input>
+                    
                 </div>
 
                 <input onclick="informe()" id="envio" type="submit" value="Enviar">
