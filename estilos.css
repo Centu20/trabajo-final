@@ -32,9 +32,9 @@ header{
     display: grid;
     color: rgb(8, 8, 160);
     border: 5px solid skyblue;
-    width: 30%;
+    width: 38%;
     background-color: orange;
-    font-size: 30px;
+    font-size: 100%;
     margin: 0 auto;
 }
 
