@@ -68,7 +68,7 @@ path:hover{
 }
 
 
-#comienzo{
+#comienzo-1{
     display: flex;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -95,4 +95,35 @@ iframe{
 
 #pagina-2{
     width: 300px;
+}
+
+
+#comienzo-2{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 auto; 
+}
+
+
+#pagina-3{
+    background-color: darkorange;
+    border: 2px solid rgb(241, 189, 92);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 160px;
+    margin: 0 auto;
+}
+
+#pagina-4{
+    background-color: darkorange;
+    border: 2px solid rgb(241, 189, 92);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 160px;
+    margin: 0 auto;
 }
