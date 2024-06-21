@@ -76,6 +76,7 @@ p{
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px double skyblue;
+    box-sizing: border-box;
     font-size: 20px;
     margin-bottom: 5%;
     height: 75%;
@@ -169,6 +170,7 @@ p{
 #numero-1{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
+    box-sizing: border-box;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -186,6 +188,7 @@ p{
 #numero-2{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
+    box-sizing: border-box;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -203,6 +206,7 @@ p{
 #numero-3{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
+    box-sizing: border-box;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;

@@ -30,6 +30,7 @@ body{
     background-color: darkorange;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     border: 2px solid darkorchid;
     font-size: 40px;
     margin-bottom: 15%;
@@ -53,7 +54,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     margin-bottom: 5px;
-    height: 55%;
+    height: -3%;
     width: 45%;
     color: orange;
     border: 2px solid blue;
@@ -74,6 +75,7 @@ main p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: orange;
+    box-sizing: border-box;
     border:  5px solid snow;
     color: aliceblue;
 }
@@ -140,7 +142,7 @@ mark{
 #formulario-de-empleo{
     background-color: goldenrod;
     text-align: center;
-    border: 15px double rgb(116, 116, 255);
+    border: 12px double rgb(116, 116, 255);
     display: grid;
     justify-items: center;
     margin: 0 auto;
