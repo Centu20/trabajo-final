@@ -32,6 +32,19 @@ h4{
     height: 95%;
     width: 46%;
     margin: 0 auto;
+    animation: aparicion 4s;
+}
+
+
+@keyframes aparicion{
+   0%{
+      opacity: 0;
+      transform: translateY(-100%);
+   }
+   100%{
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
 
 
@@ -53,7 +66,21 @@ h4{
     grid-column: 1 / -1;
     grid-row: 1 / -1;
     background-color: beige;
-    border: 15px solid rgb(207, 201, 201);
+    border: 13px solid rgb(207, 201, 201);
+    margin: 0 auto;
+    animation: bajada 4s;
+}
+
+
+@keyframes bajada{
+    0%{
+       opacity: 0;
+       transform: translateY(-100%);
+    }
+    100%{
+       opacity: 1;
+       transform: translateY(0);
+    }
 }
 
 
