@@ -1,7 +1,7 @@
 function postulantes() {
 
     const olpostulantes = document.querySelector("#info-de-postulantes")
-    const postulantes = JSON.parse(localStorage.getItem("postulantes")) || [];
+    const postulantes = JSON.parse(localStorage.getItem("candidatos")) || [];
 
 
 
