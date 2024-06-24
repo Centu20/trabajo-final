@@ -40,17 +40,17 @@
 
                 <div class="informacion" id="info-telefono">
                     <label for="telefono"><u>numero de telefono</u>*</label>
-                    <input type="text" name="listado-de-telefonos" id="segundo" required>
+                    <input type="number" name="listado-de-telefonos" id="segundo" required>
                 </div>
 
                 <div class="informacion" id="info-gmails">
                   <label for="gmail"><u>Correo Electronico</u>*</label>
-                  <input type="text" name="listado-de-gmails" id="tercero" required>
+                  <input type="email" name="listado-de-gmails" id="tercero" required>
                 </div>
 
                 <div class="informacion" id="info-documento">
                     <label for="documento"><u>DNI</u>*</label>
-                    <input type="text" name="listado-de-documentos" id="cuarto" required>
+                    <input type="number" name="listado-de-documentos" id="cuarto" required>
                 </div>
 
                 <div class="pregunta" id="info-pregunta-1">
@@ -90,17 +90,18 @@
 
                 <div class="informacion" id="info-cv">
                     <label for="curriculum"><u>CV</u>*</label>
-                    <input type="file" id="curriculum" name="curriculum" accept="archive" required></input>
+                    <input type="file" id="curriculum" name="curriculum" accept="archive/*" required></input>
                     <code><u>descargar el CV</u></code>
                 </div>
 
                 <div class="informacion" id="info-video">
                     <label for="Video"><u>Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresay cuales son sus objetivos</u></label>
-                    <input type="file" id="video" accept="video/*"></input>
+                    <input type="file" name="video" id="video" accept="video/*"></input>
+                    <div id="videoPlayer"></div>
                     <code><u>presentacion</u></code>
                 </div>
 
-                <input onclick="informe()" id="Enviar" type="submit" value="Enviar">
+                <input onclick="informe()" ondblclick="descargas()" id="Enviar" type="submit" value="Enviar">
             </div>
 
         </form>

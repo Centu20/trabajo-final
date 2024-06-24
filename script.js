@@ -1,5 +1,6 @@
 function informe () {
 
+
   const nombreEnviado = document.querySelector("#primero").value;
   const telefonoEnviado = document.querySelector("#segundo").value;
   const gmailEnviado = document.querySelector("#tercero").value;
@@ -35,4 +36,10 @@ function informe () {
   });
 
   localStorage.setItem("candidatos", JSON.stringify(candidatos));
+}
+
+
+function descargas () {
+  var curriculum = archive.getElementById("curriculum").value;
+  var video = VideoPlaybackQuality(document.getElementById("video").value);
 }
