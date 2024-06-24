@@ -33,7 +33,7 @@ function infocandidatos() {
           </li>
 
           <li>
-            ${candidatopregunta3}
+            ${candidato.pregunta3}
           </li>
 
           <li>
