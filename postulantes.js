@@ -1,64 +1,64 @@
 function postulantes() {
 
     const olpostulantes = document.querySelector("#info-de-postulantes")
-    const postulantes = JSON.parse(localStorage.getItem("candidatos")) || [];
+    const candidatos = JSON.parse(localStorage.getItem("candidatos")) || [];
 
 
 
     postulantes.forEach(postulante => {
         olpostulantes.innerHTML+=`
-           <li class="postulante">
+           <li class="candidato">
                <ul>
                    <li>
-                     ${postulante.nombre}
+                     ${candidato.nombre}
                    </li>
 
                    <li>
-                     ${postulante.telefono}
+                     ${candidato.telefono}
                    </li>
 
                    <li>
-                     ${postulante.gmail}
+                     ${candidato.gmail}
                    </li>
                   
                    <li>
-                     ${postulante.documento}
+                     ${candidato.documento}
                    </li>
 
                    <li>
-                     ${postulante.pregunta1}
+                     ${candidato.pregunta1}
                    </li>
 
                    <li>
-                     ${postulante.pregunta2}
+                     ${candidato.pregunta2}
                    </li>
 
                    <li>
-                     ${postulantepregunta3}
+                     ${candidatopregunta3}
                    </li>
 
                    <li>
-                     ${postulante.pregunta4}
+                     ${candidato.pregunta4}
                    </li>
 
                    <li>
-                     ${postulante.pregunta5}
+                     ${candidato.pregunta5}
                    </li>
 
                    <li>
-                     ${postulante.pregunta6}
+                     ${candidato.pregunta6}
                    </li>
 
                    <li>
-                     ${postulante.pregunta7}
+                     ${candidato.pregunta7}
                    </li>
 
                    <li>
-                     ${postulante.curriculum}
+                     ${candidato.curriculum}
                    </li>
 
                    <li>
-                     ${postulante.video}
+                     ${candidato.video}
                    </li>
                </ul>
            </li>
