@@ -5,7 +5,7 @@ function postulantes() {
 
 
 
-    postulantes.forEach(postulante => {
+    candidatos.forEach(candidato => {
         olpostulantes.innerHTML+=`
            <li class="candidato">
                <ul>
