@@ -118,11 +118,11 @@ p{
 
 
 #animacion-2{
-    animation: color 4s infinite;
+    animation: estilo 4s infinite;
 }
 
 
-@keyframes color{
+@keyframes estilo{
     15%{
         transform: translatex(24px);
     }
