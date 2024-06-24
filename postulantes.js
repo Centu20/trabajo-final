@@ -26,35 +26,39 @@ function postulantes() {
                    </li>
 
                    <li>
-                     ${postulante.pregunta-1}
+                     ${postulante.pregunta1}
                    </li>
 
                    <li>
-                     ${postulante.pregunta-2}
+                     ${postulante.pregunta2}
                    </li>
 
                    <li>
-                     ${postulantepregunta-3}
+                     ${postulantepregunta3}
                    </li>
 
                    <li>
-                     ${postulante.pregunta-4}
+                     ${postulante.pregunta4}
                    </li>
 
                    <li>
-                     ${postulante.pregunta-5}
+                     ${postulante.pregunta5}
                    </li>
 
                    <li>
-                     ${postulante.pregunta-6}
+                     ${postulante.pregunta6}
                    </li>
 
                    <li>
-                     ${postulante.pregunta-7}
+                     ${postulante.pregunta7}
                    </li>
 
                    <li>
                      ${postulante.curriculum}
+                   </li>
+
+                   <li>
+                     ${postulante.video}
                    </li>
                </ul>
            </li>

@@ -147,7 +147,7 @@ mark{
     justify-items: center;
     margin: 0 auto;
     width: 36em;
-    height: 126em;
+    height: 131em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -157,9 +157,11 @@ input, textarea{
 }
 
 
-#envio{
+#Enviar{
     margin-top: 15px;
     font-size: 25px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 

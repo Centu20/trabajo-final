@@ -159,6 +159,54 @@ p{
 }
 
 
+#CARTA{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: repeat(2px, auto);
+    height: 900px;
+    max-width: 44%;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    background-color: beige;
+    border: 10px solid rgb(207, 201, 201);
+    margin: 0 auto;
+    animation: bajada 4s;
+}
+
+
+@keyframes bajada{
+    0%{
+       opacity: 0;
+       transform: translateY(-100%);
+    }
+    100%{
+       opacity: 1;
+       transform: translateY(0);
+    }
+}
+
+
+#filas-1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#filas-2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#principal{
+    display: grid;
+    justify-items: center;
+    width: 20%;
+    height: 20%;
+}
+
+
 #informacion{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
@@ -179,7 +227,7 @@ p{
     align-items: center;
     gap: 10px;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     height: 85%;
     width: 45%;
 }
@@ -197,7 +245,7 @@ p{
     justify-content: center;
     gap: 10px;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     height: 85%;
     width: 45%;
 }
@@ -215,7 +263,7 @@ p{
     justify-content: center;
     gap: 10px;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     height: 85%;
     width: 45%;
 }
