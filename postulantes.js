@@ -1,12 +1,12 @@
-function postulantes() {
+function infocandidatos() {
 
-    const olpostulantes = document.querySelector("#info-de-postulantes")
+    const olcandidatos = document.querySelector("#info-del-candidato")
     const candidatos = JSON.parse(localStorage.getItem("candidatos")) || [];
 
 
 
     candidatos.forEach(candidato => {
-        olpostulantes.innerHTML+=`
+        olcandidatos.innerHTML+=`
            <li class="candidato">
                <ul>
                    <li>
@@ -67,4 +67,4 @@ function postulantes() {
 }
 
 
-postulantes();
+infocandidatos();
