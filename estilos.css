@@ -202,8 +202,8 @@ p{
 #principal{
     display: grid;
     justify-items: center;
-    width: 50%;
-    height: 20%;
+    width: 20%;
+    height: 50%;
 }
 
 
