@@ -39,7 +39,39 @@ function informe () {
 }
 
 
-function descargas () {
-  var curriculum = archive.getElementById("curriculum").value;
-  var video = VideoPlaybackQuality(document.getElementById("video").value);
+function archivosFormulario() {
+  var formulario = document.getElementById("formulario-de-empleo");
+  var curriculumInput = document.getElementById("curriculum");
+  var videoInput = document.getElementById("video");
+
+
+
+  if (curriculumInput.files.length === 0 || videoInput.files.length === 0) {
+      alert('seleccione el curriculum y video');
+      return;
+  }
+
+
+  var formData = new FormData(formulario);
+
+
+  fetch("./formulario.html", {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+
+    console.log('asegurense que sean detallados:', data);
+
+    if (data.curriculum && data.video) {
+        alert('El Curriculum y el Video se eviaron correctamente');
+    } else {
+        alert('Hubo problemas al enviar el curriculum y el video: el tipo de archivo no concuerda o el video supera el limite de 10KB')
+    }
+  })
+  .catch(error => {
+      console.error('error al enviar:', error);
+      alert('hubo un problema al enviar el formulario.');
+  });
 }
