@@ -87,7 +87,7 @@ p{
 }
 
 
-#animacion-0{
+#titulo-principal{
     animation: titulo 4s infinite;
 }
 
@@ -99,7 +99,7 @@ p{
 }
 
 
-#animacion-1{
+#subtitulo-1{
     animation: movimiento 4s infinite ;
 }
 
@@ -117,7 +117,7 @@ p{
 }
 
 
-#animacion-2{
+#subtitulo-2{
     animation: estilo 4s infinite;
 }
 
@@ -136,7 +136,7 @@ p{
 
 
 
-#animacion-3{
+#subtitulo-3{
     animation: subida 4s;
 }
 
@@ -159,7 +159,7 @@ p{
 }
 
 
-#CARTA{
+#carta{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
@@ -187,13 +187,37 @@ p{
 }
 
 
-#filas-1{
+#titulo{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
-#filas-2{
+#subtitulo{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#nombre{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#ocupacion{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#telefono{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#email{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -207,7 +231,7 @@ p{
 }
 
 
-#informacion{
+#enlaces{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -215,7 +239,7 @@ p{
 }
 
 
-#numero-1{
+#puestos-de-trabajo{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
     box-sizing: border-box;
@@ -233,7 +257,7 @@ p{
 }
 
 
-#numero-2{
+#socios-comerciales{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
     box-sizing: border-box;
@@ -251,7 +275,7 @@ p{
 }
 
 
-#numero-3{
+#formulario{
     background-color: darkorange;
     border: 2px solid rgb(241, 189, 92);
     box-sizing: border-box;
