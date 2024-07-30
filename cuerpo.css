@@ -34,7 +34,7 @@ body{
     border: 2px solid darkorchid;
     font-size: 40px;
     margin-bottom: 15%;
-    width: 15em;
+    width: 14em;
     height: -3em;
     margin: 0 auto;
 }
@@ -76,7 +76,7 @@ main p{
     font-family: Arial, Helvetica, sans-serif;
     background-color: orange;
     box-sizing: border-box;
-    border:  5px solid snow;
+    border:  2px solid snow;
     color: aliceblue;
 }
 
@@ -142,11 +142,11 @@ mark{
 #formulario-de-empleo{
     background-color: goldenrod;
     text-align: center;
-    border: 12px double rgb(116, 116, 255);
+    border: 8px double rgb(116, 116, 255);
     display: grid;
     justify-items: center;
     margin: 0 auto;
-    width: 36em;
+    width: 34em;
     height: 131em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -177,4 +177,35 @@ u{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
     font-style: oblique;
+}
+
+
+#datos-de-envio{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 190px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid orangered;
+    margin: 0 auto;
+}
+
+
+.mensaje{
+    padding: 10px; 
+    margin-top: 10px;
+    border: 1px solid transparent;
+}
+
+
+.success{
+    color: green;
+    border-color: green;
+}
+
+
+.error{
+    color: red;
+    border-color: red;
 }

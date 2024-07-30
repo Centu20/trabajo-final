@@ -75,3 +75,32 @@ function archivosFormulario() {
       alert('hubo un problema al enviar el formulario.');
   });
 }
+
+
+document.getElementById('formulario-de-empleo').addEventListener('submit', async function(event) {event.preventDefault();
+
+  const formData = new FormData(this);
+
+  const responseMessageElement = document.getElementById('formulario-recibido');
+
+  try {
+    const response = await fetch('./recibido.html', {
+      method: 'POST',
+      body: formData
+    });
+
+
+    if (response.ok) {
+      responseMessageElement.textContent = 'las respuestas fueron enviadas correctamente';
+      responseMessageElement.className = 'formulario enviado'
+    } else {
+      throw new Error('Error en el envio');
+    }
+  } catch (error) {
+    responseMessageElement.textContent = 'hubo un problema';
+    responseMessageElement.className = 'formulario fallido';
+  }
+
+});
+
+

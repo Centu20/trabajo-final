@@ -37,6 +37,14 @@ path{
 }
 
 
+a path:hover{
+    fill: blue;
+    stroke: purple;
+    stroke-width: 1.4;
+}
+
+
+
 path:hover{
     fill: darkcyan;
     stroke: darkorange;

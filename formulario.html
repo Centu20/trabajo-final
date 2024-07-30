@@ -9,7 +9,9 @@
 <body>
 
     <div class="logo">
-        <img src="tarjeta.jpg" alt="imagen">
+        <a href="./index.html" target="_blank">
+         <img src="tarjeta.jpg" alt="imagen">
+        </a>
     </div>
 
     <header>
@@ -95,7 +97,7 @@
                 </div>
 
                 <div class="informacion" id="info-video">
-                    <label for="Video"><u>Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresay cuales son sus objetivos</u></label>
+                    <label for="Video"><u>Hacer un video presentativo donde se presenten y cuenten porque quieren trabajar en la empresa y cuales son sus objetivos</u></label>
                     <input type="file" name="video" id="video" accept="video/*"></input>
                     <div id="videoPlayer"></div>
                     <code><u>presentacion</u></code>
@@ -105,7 +107,11 @@
             </div>
 
         </form>
+
+        <div id="formulario-recibido" class="mensaje"></div>
    </div>
+
+   <a id="datos-de-envio" href="./recibido.html" target="_blank">ver resultados</a>
 
     <script src="script.js"></script>
 </body>
